@@ -107,13 +107,17 @@ textarea.form-control {
     color: white;
 }
 
-.btn-primary, .btn-secondary, .btn-danger {
+.btn-primary, .btn-secondary, .btn-danger, .btn-color {
     border: none;
     padding: 8px 16px;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.2s;
+}
+
+.btn-color{
+    background-color: #f2dbf3;
 }
 
 .btn-primary:hover {
