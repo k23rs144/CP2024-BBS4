@@ -478,8 +478,11 @@ $(function() {
     updateCharacterCount('contentInput', 'contentCount', 1000);
 
     //背景変更
+    const colors = ['linen','mistyrose','azure','lavender','lightcyan','cornsilk','lightyellow','lightpink','thistle'];
+    var colorIndex = 0;
     $('#button-group').on('click', function() {
-        $('body').css('background-color','pink');
+        $('body').css('background-color',colors[colorIndex]);
+        colorIndex = colorIndex + 1;
     });
 
     // 投稿処理
